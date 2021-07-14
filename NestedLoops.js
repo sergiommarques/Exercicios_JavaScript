@@ -30,3 +30,4 @@ for(let b = 0; b < bobsFollowers.length; b++){
     for (let m =0; m<mutualFollowers.length; m++){
         console.log(mutualFollowers[m])
     }
+
