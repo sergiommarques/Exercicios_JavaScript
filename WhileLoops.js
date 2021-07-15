@@ -28,3 +28,34 @@ while ( currentCard != 'spade') {
 
 console.log(Math.random() * 4)
 console.log(Math.floor(Math.random() * 4))
+
+// do...while loop
+
+console.log('do...while loop')
+
+let countString = '';
+let i = 0;
+ 
+do {
+  countString +=  i;
+  i++;
+} while (i < 5);
+ 
+console.log(countString);
+
+//DIFERENÇAS - O DO...WHILE EXECUTA O BLOCO PELO MENOS UMA VEZ, O WHILE NÃO
+console.log('while != do...while')
+
+const firstMessage = 'I will print!';
+const secondMessage = 'I will not print!'; 
+ 
+// A do while with a stopping condition that evaluates to false
+do {
+ console.log(firstMessage)
+} while (true === false);
+ 
+// A while loop with a stopping condition that evaluates to false
+while (true === false){
+  console.log(secondMessage)
+};
+ 
